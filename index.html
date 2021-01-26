@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass-design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main class="main">
+            <section class="glass">
+                <div class="test">
+                </div>    
+                <div class="side-bar">
+                    <div class="profile">
+                        <img class="image" src="./clint-patterson-dYEuFB8KQJk-unsplash.jpg" alt="">
+                    </div>
+                    <div class="links">
+                        <button class="btns" ><a href="home"><img class="icons" src="./smart-home.svg" alt=""> <br> HOME</a></button>
+                        <button class="btns" ><a href="about"><img class="icons" src="./contact-us.svg" alt=""><br>ABOUT</a></button>
+                        <button class="btns" ><a href="project"><img class="icons" src="./testing.svg" alt=""><br>PROJECTS</a></button>
+                        <button class="btns" ><a href="contact"><img class="icons" src="./contact-list.svg" alt=""><br>CONTACT</a></button>
+                        <button class="btns" ><a href="achievement"><img class="icons" src="./success.svg" alt="">ACHIVEMENTS</a></button>
+                    </div>
+                    <div class="games">
+                        <span class="games-disc disc">want to play games</span>
+                        <span class="games-disc disc">some games?</span>
+                        <button class="game-btn disc"> <a href="#">Click Here</a></button>
+                    </div>
+                </div>
+                .
+            </section>
+        </main>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+    <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".glass"), {
+                max: 25,
+                speed: 400,
+                "max-glare":0.5,
+                glare:true,
+                // reverse:true,
+                
+            });
+    </script>    
+</body>
+</html>
